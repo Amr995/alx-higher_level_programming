@@ -14,6 +14,7 @@ Test one int argument:
 	100
 
 Test one int argument and check default second:
+
 	>>> add_integer(0)
 	98
 
@@ -43,7 +44,7 @@ Test positive, negative integers:
 	-89200318917
 
 Test negative, positive integers:
-	
+
 	>>> add_integer(-13947692, 57234)
 	-13890458
 
@@ -53,7 +54,7 @@ Test an integer and a float:
 	130
 
 Test a float and an integer:
-	
+
 	>>> add_integer(234234.43545, 4352345)
 	4586579
 
@@ -73,7 +74,7 @@ Add nan:
 
 	>>> add_integer(0, float('nan'))
 	Traceback (most recent call last):
-		...
+	...
 	ValueError: cannot convert float NaN to integer
 
 Test first arg invalid:
