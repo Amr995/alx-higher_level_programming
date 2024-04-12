@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-#Square module
 
-class Square:
-    #Empty class
-    pass
+class Square: #Square module.
+    pass #Empty class
